@@ -8,7 +8,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
 - Active Directory Domain Services
 - PowerShell
 
@@ -24,7 +23,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 In this lab we will create two VMs in the same VNET. One will be a Domain Controller, the other will be a Client machine. We will change the DC to a static IP because its offering Active Directory services to the client machine. Client machine will be joined to the domain. We will control the DNS settings on the client machine, the client machine will use the DC as its DNS server. 
 </p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/d22FHIm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
