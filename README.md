@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+I set up a Domain Controller and Client VM in Azure, ensuring proper network configuration and static IP. I installed Active Directory, created Organizational Units, and established an admin account. I configured DNS on the Client VM, joined it to the domain, and enabled remote desktop access for domain users. Finally, I used PowerShell to automate user account creation, verified the accounts in ADUC, and tested logging in with the new accounts, showcasing my skills in domain management and user administration.<br />
 
 <h2>Environments and Technologies Used</h2>
 
